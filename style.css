@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+    display: flex;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+    gap: 2rem;
+    border: 1px solid red;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.profile__section {
+    display: flex;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-container {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile-container img {
+    display: block;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.company-container {
+    width: 100px;
+
+}
+
+
+.company-container img {
+    display: block;
+    object-fit: contain;
+}
+
+.container-social {
+    display: flex;
+    display: -webkit-flex;
+    display:-ms-flexbox;
+}
+
+.contact__section h1 {
+}
+
+.contact__section p,
+.contact__section a {
+    opacity: 80%;
+    font-size: 0.90rem;
+}
